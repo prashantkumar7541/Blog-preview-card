@@ -1,0 +1,49 @@
+body {
+    height: 812px;
+    width: 375px;
+    border-radius: 10px;
+    background-color: hsl(47, 88%, 63%);
+}
+#main-box {
+    width: 325px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 15px;
+    border-radius: 10px;
+}
+p {
+    color: hsl(0, 0%, 42%);
+}
+h2 {
+    color: hsl(0, 0%, 7%);
+}
+button {
+    background-color: hsl(47, 88%, 63%);
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+    border-color: yellow;
+}
+#img1 {
+    border-radius: 10px;
+    width: 325px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+/* Larger screen */
+@media (min-width:1200px) {
+    #main-box {
+        margin: 35px 525px;
+    }
+    .attribution{
+        width: 1200px;
+        margin-left: 125px;
+    }
+
+}
